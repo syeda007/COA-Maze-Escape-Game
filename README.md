@@ -1,95 +1,138 @@
-##COA Maze Escape Game
+# 🧠 COA Maze Escape
 
-COA Maze Escape is an educational 2D maze game built using Python and Pygame, designed to help students learn Computer Organization and Architecture (COA) concepts in an interactive way.
+## 📌 Project Overview
+**COA Maze Escape** is a 2D educational maze game developed using **Python and Pygame**.  
+The game helps students understand key **Computer Organization and Architecture (COA)** concepts through interactive gameplay.
 
-Players must navigate through maze rooms, collect keys, and unlock doors by answering COA-related questions correctly.
+Players must navigate through maze rooms, collect keys, and unlock doors by correctly answering COA-related questions.
 
-🎮 Game Features
+---
 
-🧩 Maze-based gameplay
-🗝️ Key collection system
-🚪 Locked doors with COA questions
-📚 Educational focus on COA concepts
-🎯 Progressive difficulty levels
+## 🎮 Game Features
+- Maze-based exploration game
+- Educational COA questions integrated into gameplay
+- Key and door unlocking mechanism
+- Progressive difficulty levels
+  - Easy
+  - Medium
+  - Hard
+- Custom player, key, and door sprites
+- Real-time feedback messages
+- Keyboard-based controls
 
-Easy
-Medium
-Hard
+---
 
-🖼️ Custom sprites for player, key, and door
+## 🧠 Learning Objectives
+This project helps learners to:
+- Understand binary and decimal number systems
+- Learn basic COA concepts (ALU, registers, control unit)
+- Improve logical thinking and problem-solving skills
+- Experience gamified learning
 
-⌨️ Keyboard-controlled movement
+---
 
-🏗️ Game Mechanics
-Maze Tiles Representation
-Value	Meaning
-0	Empty path
-1	Wall
-2	Player start position
-3	Key
-4	Door
+## 🏗️ Game Mechanics
 
-COA Question Logic
-Each room has different types of questions:
-Room 1 (Easy)
-→ Decimal to Binary conversion
+### 🔢 Tile Representation
+| Value | Description |
+|------|------------|
+| `0`  | Empty path |
+| `1`  | Wall |
+| `2`  | Player |
+| `3`  | Key |
+| `4`  | Door |
 
-Room 2 (Medium)
-→ Binary to Decimal conversion
+---
 
-Room 3 (Hard)
-→ Conceptual COA questions (ALU, registers, control unit, etc.)
-You must answer correctly to unlock the door and move to the next room.
+### 🧩 Level-wise Question Logic
+- **Level 1 (Easy)**  
+  - Decimal to Binary conversion
 
-⌨️ Controls
-Key	Action
-⬆️	Move Up
-⬇️	Move Down
-⬅️	Move Left
-➡️	Move Right
-Enter	Submit answer
-Backspace	Delete input
+- **Level 2 (Medium)**  
+  - Binary to Decimal conversion
 
+- **Level 3 (Hard)**  
+  - Conceptual COA questions
+
+---
+
+## ⌨️ Controls
+| Key | Action |
+|----|--------|
+| ⬆️ Arrow Up | Move Up |
+| ⬇️ Arrow Down | Move Down |
+| ⬅️ Arrow Left | Move Left |
+| ➡️ Arrow Right | Move Right |
+| Enter | Submit answer |
+| Backspace | Delete input |
+
+---
+
+## 📂 Project Structure
 COA-Maze-Escape/
 │
 ├── game.py
-├── image.png.png   # Player sprite
-├── key.png         # Key sprite
-├── door.png        # Door sprite
+├── image.png.png # Player sprite
+├── key.png # Key sprite
+├── door.png # Door sprite
 └── README.md
 
-🛠️ Requirements
-Python 3.x
-Pygame library
 
-Install Pygame
+
+---
+
+## 🛠️ Technologies Used
+- Python 3
+- Pygame library
+
+---
+
+## 📦 Installation
+
+### 🔹 Prerequisites
+- Python 3.x installed
+- Pygame installed
+
+### 🔹 Install Pygame
+```bash
 pip install pygame
 
 ▶️ How to Run the Game
-Make sure all image files are in the same directory as game.py
-Run the game using:
+
+1. Clone the repository:
+git clone https://github.com/USERNAME/REPOSITORY_NAME.git
+
+2.Navigate to the project folder:
+cd COA-Maze-Escape
+
+3.Run the game:
 python game.py
 
-🎯 Objective
+🎯 Game Objective
 
-Navigate the maze
-Collect the key 🗝️
-Reach the door 🚪
-Answer the COA question correctly
-Escape all rooms 🎉
+1.Navigate through the maze
+2.Collect the key 🗝️
+3.Reach the locked door 🚪
+4.Answer the COA question correctly
+5.Complete all levels successfully 🎉
 
-🚀 Future Improvements 
+🚀Future Enhancements
 
-Sound effects & background music
-Timer-based challenges
-More COA question banks
-Score system
-Random maze generation
-Multiplayer mode
+1.Add sound effects and background music
+2.Implement score and timer system
+3.Add more COA question banks
+4.Random maze generation
+5.Difficulty-based scoring
+6.Mobile version support
 
+👩‍💻 Developer Information
 
-👩‍💻 Developed By
+Name: Syeda Naazima Unnisa
+Degree: B.Tech
+Branch: CSE (AI & ML)
+Institution: KG Reddy College of Engineering and Technology
 
-Syeda Naazima Unnisa
-B.Tech – CSE (AI & ML)
-Educational Game Project
+📜 License
+
+This project is developed for educational purposes only.
+
