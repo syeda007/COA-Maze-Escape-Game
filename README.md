@@ -1,4 +1,4 @@
-#COA Maze Escape Game
+##COA Maze Escape Game
 
 COA Maze Escape is an educational 2D maze game built using Python and Pygame, designed to help students learn Computer Organization and Architecture (COA) concepts in an interactive way.
 
@@ -86,3 +86,10 @@ More COA question banks
 Score system
 Random maze generation
 Multiplayer mode
+
+
+👩‍💻 Developed By
+
+Syeda Naazima Unnisa
+B.Tech – CSE (AI & ML)
+Educational Game Project
